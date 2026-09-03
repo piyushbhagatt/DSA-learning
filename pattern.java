@@ -582,3 +582,570 @@
 //     }
 // }
 
+
+// public class pattern {
+
+//     public static void print(int a){
+//         int num = 1;
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print(num);
+//                 num++;
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(6);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print (int a){
+//         for(int i = 1 ; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 if((i +j) % 2 == 0){
+//                     System.out.print(1+" ");
+//                 } else {
+//                     System.out.print(0+" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(6);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a-i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a-i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main(String args[]){
+//         print(6);
+//     }
+// }
+
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main(String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print (int a, int b){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= b; j++){
+//                 if(i == 1 || i == a || j == 1 || j == b){
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public  static void main(String args[]){
+//         print(6, 6);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a - i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a - i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a - i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print (int a, int b){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= b; j++){
+//                 if(i == 1 || i == a || j == 1 || j == b){
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(6, 6);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print (int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= (2*i)- 1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= (2*i)-1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a-i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main(String args[]){
+//         print(8);
+//     }
+// }
+
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 if(i == 1 || i == a || j == 1 || j == a){
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(6);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= (2*i)-1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= (2*i)-1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(4);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a - i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a; j++){
+//                 if(i == 1 || i == a || j == 1 || j == a){
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main(String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             for(int j = 1; j <= 2*(a-i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();;
+//         }
+//     }
+//     public static void main(String args[]){
+//         print(8);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print (int a){
+//         for(int i = 1; i <= a; i++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= a; j++){
+//                 if(i == 1 || i == a || j == 1 || j == a){
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(10);
+//     }
+// }
+
+// public class pattern {
+
+//     public static void print(int a){
+//         for(int i = 1; i <= a; i ++){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= (2*i)-1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         for(int i = a; i >= 0; i--){
+//             for(int j = 1; j <= a-i; j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1; j <= (2*i)-1; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     public static void main (String args[]){
+//         print(8);
+//     }
+// }
